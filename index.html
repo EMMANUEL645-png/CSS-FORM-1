@@ -10,25 +10,32 @@
             margin: 0;
             box-sizing: border-box;
         }
+         
+        body{
+            background: black;
+        }
 
         .parent{
             background-color: white ;
             width: 300px;
             border-radius: 20px;
             padding: 30px;
+            text-align: center;
         }
         input {
-            border: none;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
         }
         .Signup{
             background-color: rgb(46, 9, 212);
             width: 200px;
             height: 45px;
-            border-radius: 300px; 
-        }
-        .Signup a{
+            border-radius: 300px;
             color: #fff;
+            border: none;
         }
+        
         .login-text{
             background-color: aliceblue;
             padding: 20px;
@@ -52,7 +59,7 @@
         <input type="password" placeholder="Password">
     </div> <br> <br>
 
-  <center>  <button class="Signup" ><a href="">  sign up</a></button> <br> <br> </center>
+  <center>  <button class="Signup" >Signup</button> <br> <br> </center>
    <div class="login-text">
     <p> Have an account? <a href="#">log in</a></p>
    </div>
